@@ -23,25 +23,25 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
-
+puts "Is teachers less than students", number_teachers < number_students
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
-
+puts "is number teacher equal to string teacher", number_teachers == string_teachers
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
-
+puts "is number teacher not equal to number students", number_teachers != number_students
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
-
+puts "is number students greater or equal to 20", number_students >= 20
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
-
+puts "is number students greater than or equal to 21", number_students >= 21
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
-
+puts "is number students less than or equal to 20", number_students <= 20
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
-
+puts "is number students less than to equal to 21", number_students <= 21
 
 #-------------------
 # PART 2: Articulating what you are doing
@@ -54,21 +54,21 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 puts 4 < 9
 #YOU DO: Explain.
-
+# compares if 4 is less than 9
 books = 3
 puts 4 < books
 # YOU DO: Explain.
-
+# sets variable books, compares is 4 is less than variable books
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
-
+# defines friends and siblings as variables, compares if friends is greater than sibling
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+# defines attendees and meals, compares if attendees doesn't equal meals
 
 #-------------------
 # PART 3: Logical Operators
@@ -87,19 +87,19 @@ loves_to_play = true
 loves_dog_park = false
 loves_treats = true
 age = 1
-
+puts "break"
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
 # Assume that a dog is a puppy if it is less than 2 years old.
-
+puts loves_to_play && age < 2
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: True, age is less than 2 and the puppy loves to play
