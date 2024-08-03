@@ -103,3 +103,4 @@ puts loves_to_play || loves_dog_park
 puts loves_to_play && age < 2
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER: True, age is less than 2 and the puppy loves to play
+
